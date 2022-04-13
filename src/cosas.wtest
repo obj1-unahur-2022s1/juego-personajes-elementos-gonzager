@@ -1,0 +1,16 @@
+import cosas.*
+test "AlturaCastillo" {
+
+	assert.equals(20, castillo.altura())
+
+}
+
+test "AlturaTipo" {
+
+	assert.equals(8, tipa.altura())
+
+}
+
+test "AhoraEstaViva" {
+	assert.that(aurora.estaViva())
+}
